@@ -1,0 +1,45 @@
+body {
+    
+}
+#logo {
+    width: 25%;
+    margin-left: 5em;
+    margin-top: 2em;
+}
+#navbarNav {
+    margin-left: 38em;
+    margin-right: 5em;
+}
+.navbar-nav {
+    
+}
+.nav-item {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+#header_text {
+    margin-top: 14em;
+    margin-left: 7em;
+}
+#header_text p {
+    font-size: 2em;
+    margin-bottom: 0;
+}
+#header_text h1 {
+    font-size: 5em;
+    margin-bottom: .25em;
+}
+#header_text_sm {
+    font-size: 1.5em;
+    margin-top: .5em;
+}
+.float-right {
+    float: right;
+    width: 30%;
+    margin: 8em auto 3em auto;
+}
+.float-left {
+    width: 40%;
+    float:left;
+    clear: both;
+}

@@ -12,7 +12,7 @@
     <!--Begin Nav-->
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html"><img src="images/sh-logo.png" alt="logo" id="logo"></a>
+      <a class="navbar-brand" href="index.html"><img src="images/sh-logo.png" class="img-fluid" alt="logo" id="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,13 +21,13 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Work<span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Resume</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
@@ -36,8 +36,38 @@
     
     <!--End Nav-->
     
-    <h1>Hello, <br>I'm Stefania.</h1>
-
+    <!--Begin Header-->
+    
+    <div class="header row">
+        <div id="header_text" class="float-left">
+            <article>
+                <p><strong>Hello,</strong></p>
+                <h1>I'm Stefania.</h1>
+                <p>A junior <strong>web developer</strong>, <strong>copy editor</strong> and <strong>photographer</strong>.</p>
+                <div id="header_text_sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </article>
+        </div>
+        <div id="header_image" class="float-right">
+            <img src="images/temp_graphic.png" class="img-fluid" alt="logo_art">
+        </div>
+    </div>
+    
+<!-- NEW START/BOOTSTRAP APPROACH -->
+  
+   <div class="container" id="header">
+       <div class="row" id="header_text"> <!--Remember, these IDs are being styled.-->
+           <div class="col">
+               <p><strong>Hello,</strong></p>
+               <h1>I'm Stefania.</h1>
+               <p>A junior <strong>web developer</strong>, <strong>copy editor</strong> and <strong>photographer</strong>.</p>
+               <div id="header_text_sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+           </div>
+           <div class="col">
+               <img src="images/temp_graphic.png" class="img-fluid" alt="logo_art">
+           </div>
+       </div>
+   </div>
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
